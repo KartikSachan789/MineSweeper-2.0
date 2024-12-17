@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "VT323", monospace;
+  cursor: default;
+}
+
+img {
+  height: 18px;
+  width: 18px;
+  margin-left: 2px;
+}
+
+.flag-img {
+  height: 16px;
+  width: 14px;
+}
+
+/* header classe */
+.header {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.header :last-child {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 3.3rem;
+  font-weight: 900;
+}
+
+.blur {
+  filter: blur(5px);
+}
+
+.result {
+  position: absolute;
+  font-size: 2rem;
+}
+
+.result p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 6px;
+  /* text-shadow: 2px 2px 4px #000000;
+      */
+}
+
+/* form style classes */
+form {
+  display: inline-block;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  align-self: center;
+
+  margin-bottom: 60px;
+  width: 250px;
+}
+h1 {
+  color: #333;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #555;
+}
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  font-size: 14px;
+}
+button {
+  display: block;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  /* box-shadow: 2px 2px 5px #000000; */
+}
+button:hover {
+  background-color: #218838;
+}
+
+/* hidden cell classes */
+.cell-hidden {
+  height: 20px;
+  width: 20px;
+  background-color: #bdbdbd;
+  font-family: "VT323", monospace;
+  color: #bdbdbd;
+  border-top: solid #e0dfdf 1.5px;
+  border-left: solid #e0dfdf 1.5px;
+  border-right: solid black 2px;
+  border-bottom: solid black 2px;
+  transition: 0.06s;
+}
+
+.cell-hidden:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #bdbdbd;
+  border: none;
+  border-top: solid #e0dfdf 1px;
+  border-left: solid #e0dfdf 1px;
+  border-right: solid black 1.5px;
+  border-bottom: solid black 1.5px;
+}
+
+/* active cell classes */
+.cell-found {
+  height: 20px;
+  width: 20px;
+  background-color: #bdbdbd;
+  font-family: "VT323", monospace;
+  font-weight: 900;
+  color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  gap: 2px;
+}
+
+.grid {
+  background-color: rgb(96, 96, 96);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  user-select: none;
+  font-size: 21px;
+  border: solid rgb(29, 29, 29) 3px;
+  padding: 1.5px;
+}
+
+.container {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: #f1f1f1;
+  color: #333;
+
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 3rem;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
