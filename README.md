@@ -28,7 +28,7 @@ This is a classic Minesweeper game implemented using HTML, CSS, and JavaScript. 
 - **Mobile**:
   - **Tap**: Reveal a cell.
   - **Long press**: Flag a cell.
-  - 
+  
 ## How to Play
 
 1. Choose the grid size (9x9 or 16x16) and difficulty level (Easy, Medium, Hard) using the setup form.
@@ -40,7 +40,9 @@ This is a classic Minesweeper game implemented using HTML, CSS, and JavaScript. 
    - Use the numbers on the revealed cells as clues to avoid mines.
    - Plan your moves carefully to avoid getting trapped.
 
-[Click here to play the game!]((https://mine-sweeper-2-0.vercel.app/))
+
+[Click here to play Minesweeper!](https://mine-sweeper-2-0.vercel.app/)
+
 
 
 ## Dependencies
