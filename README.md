@@ -40,6 +40,8 @@ This is a classic Minesweeper game implemented using HTML, CSS, and JavaScript. 
    - Use the numbers on the revealed cells as clues to avoid mines.
    - Plan your moves carefully to avoid getting trapped.
 
+[Click here to play the game!](https://github.com/KartikSachan789/MineSweeper-2.0)
+
 
 ## Dependencies
 
